@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*Selector descendiente*/
+        div .title{
+            color:red;
+        }
+
+        /*Selector hijo*/
+        .fsecond > .parrafo{
+            color:orange;
+        }
+        /*Selector múltiple */
+        form, input, button{
+            background-color: grey;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Selectores descendietes -->
+
+    <p class="title">Primer título</p>
+
+    <div>
+        <p class="title">Segundo título</p>
+
+        <p>Párrafo
+            <span class="title">Span</span>
+        </p>
+    </div>
+
+    <!-- Selectores hijo -->
+
+    <div class="first">
+        <div class="second">
+            <p class="parrafo">Párrafo</p>
+        </div>
+
+    </div>
+
+    <!-- Selector múltiple-->
+
+    <form>
+        <input type="text" /><br>
+        <input type="text" /><br>
+        <button type="submit">ENVIAR</button>
+    </form>
+
+  
+    
+</body>
+</html>
