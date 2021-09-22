@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+    <!-- VÍDEOS -->
+
+
+    <!-- Para ver los  formatos de video compatibles con navegadores -> https://www.w3schools.com/html/html5_video.asp -->
+
+    <!-- Para poner vídeos con solo una extensión-->
+    <!-- <figure>
+        <!-- El atributo autoplay tiene queir junto con el atributo muted ( sin volumen ) para que funcione-->
+        <!-- <video src="video/gato.mp4" width="200px" controls autoplay muted></video>
+        <figcaption>Gatete</figcaption> 
+    </figure> 
+    -->    
+    <!-- Para poner vídeos con solo varias extensión -->
+    <figure>
+        <video width="200px" controls autoplay muted>
+            <source src="video/gato.mp4" type="video/mp4"/>
+            <source src="video/gato.mkv" type="video/mkv">
+            <source src="video/gato.avi">
+        </video>
+        <figcaption>Gatete</figcaption>
+    </figure>
+
+
+    <!-- #################################################################################################################### -->
+
+
+    <!-- AUDIO -->
+
+
+    <!-- Ver compatibilidad con navegadores ->  https://www.w3schools.com/html/html5_audio.asp -->
+    <!-- ( autoplay en audio no es soportado se necesita realizar un script con javascript para que funcione)-->
+    <audio  controls autoplay loop>
+        <source src="audio/guitarrita.mp3" type="audio/ogg">
+        <source src="audio/guitarrita.mp" type="audio/mpeg">
+    </audio> 
+
+    
+</body>
+</html>
