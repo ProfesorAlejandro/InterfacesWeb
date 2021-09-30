@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            text-align: justify;
+        }
+        .caja{
+            border: 5px solid salmon;
+            width: 10%;
+            text-align: left;
+        }
+        a{
+            /*TMPOCO FUNCIONA CON INLINE-BLOCK*/
+            display: block;
+            text-align: center;
+            width: 200px;
+            
+        }
+        .img{
+            /*centrar imágenes */
+            display: block;
+            margin: 0 auto;
+        }
+        .img-container{
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        Text-align es la propiedad que me permite alinear horizontalmente
+        el contenido de un elemento en bloque.
+        
+
+        ( valores: left ->por defecto, right -> a la derecha
+        justify -> ocupa todo el espacio -> feo , espacios en medio, center -> al centro)
+
+        Para centrar imágenes si no están dentro de ningún contenedor usar márgenes automáticos
+        y cambiar el display a block
+
+        Si las imágenes están dentro de un contenedor y éste es un elemento en bloque si se puede
+        usar text-align:center en el contenedor  para centrar la imagen
+    -->
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nobis nesciunt velit ex debitis error corrupti, ipsum iure voluptatem excepturi. Sequi nisi ut ex fugit magni placeat unde ipsa libero?
+        Explicabo earum porro magni consequatur aperiam voluptatem enim consectetur, excepturi maxime atque culpa voluptatum? Ducimus, voluptatibus tempore dicta expedita nesciunt vitae. Dicta consequuntur delectus architecto dolore praesentium quod, sapiente quis!
+        Totam fugit, eveniet rem repudiandae, velit tempora iste ipsum dolore dolor unde odio voluptas! Modi distinctio velit, assumenda similique, magnam veritatis nulla ea autem saepe, esse beatae laudantium alias reiciendis!
+        Non eaque eius, quis debitis ad veritatis voluptates repellat ipsa porro fugit hic voluptatum enim incidunt magnam ratione repudiandae sint. In inventore eum voluptates ut sequi. Ea velit consectetur inventore?
+        Quam error iste vitae rem quibusdam veritatis consequatur numquam ratione? Inventore aperiam at amet mollitia similique, modi ratione maiores corrupti consectetur, obcaecati asperiores magnam eveniet dicta beatae eos sit provident?
+        Doloremque cum inventore voluptas qui ea modi! Praesentium repellendus, perspiciatis non tenetur consequuntur, sed excepturi error ex, eveniet harum iusto tempore eius explicabo expedita dolores quasi rem eligendi! Corrupti, non.
+        Aperiam dolores, perspiciatis eaque quisquam consectetur ipsam quasi veniam excepturi autem, sint beatae eius quos, incidunt odit modi eum aut quae distinctio doloribus deleniti vitae natus accusamus suscipit! Nam, ipsam!
+        Optio quos error libero blanditiis ab, consequuntur iste magnam! Reprehenderit perferendis perspiciatis consequatur consectetur excepturi illo itaque suscipit id vel aliquam? Eum aut eius placeat officiis dicta ab nam ad!
+        Natus officia beatae in ratione, autem modi, fugit repellat facere culpa vitae odit ullam a ad labore tempore perspiciatis voluptatibus totam neque explicabo necessitatibus. Placeat facilis id minus quis recusandae!
+        Quae illo excepturi asperiores? Reiciendis nulla deleniti temporibus id, eum totam exercitationem excepturi dolores fugiat molestiae quibusdam architecto a veniam nostrum voluptate est quae dignissimos tenetur eius mollitia esse odit?
+    </p>
+
+    <div class="caja">Border</div>
+    <a href="">Este es un enlace</a>
+
+    <img src="casa.jpg" class="img" width="200px" />
+
+   
+
+    <!-- Si la imagen está dentro de una contenedor si 
+     la podemos centrar dándolde un text-align:center al contenedor-->
+    <div class="img-container">
+        <img src="casa.jpg" width="200px" />
+
+    </div>
+    
+</body>
+</html>
