@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .rem{
+            font-size: 1rem;
+        }
+
+        .em{
+            font-size: 1em;
+
+        }
+        .rem-container{
+            font-size: 60px;
+            width: 80vw;
+            height: 20vh;
+            border: 1px solid black;
+            margin-top: 40px;
+
+        }
+        .em-container{
+            font-size: 60px;
+            width: 80vw;
+            height: 20vh;
+            border: 1px solid black;
+            margin-top: 40px;
+                        
+        } 
+                   
+    </style>
+</head>
+<body>
+
+    <!-- 
+        Las unidades de medida más habituales para los tamaños de las fuentes son : px, rem y em.
+        Los píxeles ( px ) son unidades de medida absolutas, da igual en que dispositivo se muestren
+        tendrán siempre el mismo tamaño ( no son responsive ).
+        Las medidas rem y em son medidas relativas y se muestran de manera diferente en función del contexto ( responsive).
+        
+        Rem es relativa al elemento raíz ( al propio documento html).
+        Em es relativa al elemento padre que la contiene ( contenedor padre ) y si no existe al propio documento html.
+    -->
+
+
+    <p>FUENTE CON 16 PÍXELES</p>
+
+    <div class="rem-container"> REM CONTAINER
+        <p class="rem">FUENTE CON 1 REM</p>
+    </div>
+
+    <div class="em-container"> EM CONTAINER
+        <p class="em">FUENTE CON 1 EM</p>
+    </div>
+   
+   
+    
+</body>
+</html>
