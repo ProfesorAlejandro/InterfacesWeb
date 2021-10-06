@@ -1,0 +1,33 @@
+*{
+    color: white;
+}
+.caja{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.rojo{
+    background-color: red;
+    left: 100px;
+    z-index: 10;
+}
+
+
+.verde{
+    background-color: green;
+    bottom: 60px;
+    left: 160px;
+    z-index: 20;
+}
+
+.azul{
+    background-color: blue;
+    bottom: 120px;
+    left: 220px;
+    z-index: 30;
+}

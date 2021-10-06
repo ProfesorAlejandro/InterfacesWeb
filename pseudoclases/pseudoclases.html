@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pseudo-Clases CSS</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	<link rel="stylesheet" href="css/pseudoclases.css">
+</head>
+<body>
+
+	<!-- Los pseudoeclases son palabras de css usadas par aacceder al 
+		estado de ciertos elementos  
+	-->
+
+	<!-- :link  ( color del elemento,cuando la página no ha sido visitada. Enlaces y botones )
+		:visited ( color del elemento cuando la página ha sido visitada. Enlaces y botones)
+		:active ( color del enlace cuando éste es presionado . Enlaces y botones)
+		:hover ( color de un elemento cuando pasamos el ratón por encima )
+		:first-child ( aplicar estilos a el primer hijo de una serie )
+		:last-child ( aplicar estilos al último hijo de una serie)
+		:nth-child() ( aplicar estilos al primer elemento, segundo, tercero... en
+		función del número que le doy como argumento)
+		:nth-child(odd) ( aplicar estilos a los elementos impares)
+		:nth-child(even) ( aplicar estilos a los elementos pares)
+	-->
+
+
+	<div class="contenedor">
+		<h1 class="titulo">Pseudo-clases</h1>
+
+
+		<div class="grupo">
+			<label>:active / :link / :visited / :hover</label>
+			<a class="enlace" href="https://www.google.com">Ir a Google!</a>
+		</div>
+		
+
+		<div class="grupo">
+			<label>:first-child / :last-child</label>
+			<div class="parrafos">
+				<p>Soy el primer parrafo!</p>
+				<p>Soy el segundo parrafo!</p>
+				<p>Soy el tercer parrafo!</p>
+			</div>
+		</div>
+		
+		<div class="grupo">
+			<label>:nth-child() / :nth-last-child</label>
+			<ul class="lista">
+				<li>Soy la opción #1</li>
+				<li>Soy la opción #2</li>
+				<li>Soy la opción #3</li>
+				<li>Soy la opción #4</li>
+				<li>Soy la opción #5</li>
+				<li>Soy la opción #6</li>
+				<li>Soy la opción #7</li>
+				<li>Soy la opción #8</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
