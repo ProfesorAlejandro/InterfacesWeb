@@ -1,0 +1,25 @@
+.caja{
+    color: red;
+    width: 300px;
+    height: 150px;
+    background-color: aquamarine;
+    line-height: 150px;
+    text-align: center;
+    margin: 100px auto;
+    border-radius: 20px;
+    /*valores obligatorios*/
+    /* box-shadow:10px 10px; */
+    /*valores obligatorios + opcionales -> blur radius*/
+    /* box-shadow:10px 10px 10px; */
+    /*valores obligatorios + opcionales -> color  ( el color siempre será el último valor)*/
+    /* box-shadow:10px 10px 10px purple; */
+    /*valores obligatorios + opcionales -> spread-radius + color  ( hace un padding en la sombra)*/
+    /* box-shadow:10px 10px 10px 100px purple; */
+    /*valores obligatorios + opcionales -> inset ( le da la vuelta a la sombra )*/
+    /* box-shadow:inset 10px 10px purple;  */
+
+    /* Múltiples sombras*/
+    box-shadow:10px 10px purple,20px 20px red, 30px 30px green ; 
+
+
+}
