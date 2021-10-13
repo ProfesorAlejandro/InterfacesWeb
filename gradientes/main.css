@@ -1,0 +1,27 @@
+.linear-container{
+
+    margin: 100px auto;
+    height: 80vh;
+    width: 80vw;
+    border: 2px solid black;
+
+    /* background: linear-gradient(blue,red); */
+    background: linear-gradient(to left,blue,red);
+    /* background: linear-gradient(to top left,blue,red); */
+    /* background:linear-gradient(blue 80%, red 20%); */
+}
+
+.radial-container{
+
+    margin: 100px auto;
+    height: 60vh;
+    width: 80vw;
+    border: 2px solid black;
+
+    background: radial-gradient(blue, yellow);
+    /* background: radial-gradient(circle,blue, yellow); */
+    /* background: radial-gradient(at top,blue, yellow); */
+     /* background: radial-gradient(at left,blue, yellow); 
+
+     background: radial-gradient(at top left,blue, yellow); 
+} */

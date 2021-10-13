@@ -1,0 +1,26 @@
+.container-1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(27, 26, 26);
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+
+.container-2{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(177, 97, 97, 0.5);
+    position: relative;
+    top: -40px;
+    left: 80px;
+}
+
+.container-3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(71, 97, 71);
+    position: relative;
+    top: -100px;
+    left: 120px;
+}

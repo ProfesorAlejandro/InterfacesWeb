@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <!-- Los degradados son transiciones entre dos o más colores -->
+
+    <!-- 
+         a ) Degradados lineales ( la transición es en línea recta )
+                ->background: linear-gradient ( primercolor, segundocolor, tercercolor...)
+
+            *Por defecto el degradado es de arriba a bajo pero opcionalmente podemos
+            modificarlo dándlo la dirección como primer valor.
+            
+                - to left ( hacia la izquierda )
+                - to right ( hacia la derecha )
+                - to top ( hacia arrriba )
+                - to bottom ( hacia abajo - por defecto)
+
+            * También podemos indicar que l ddegradado sea diagonal especificando
+            dos direcciones ( to right top, to left top, to right bottom, to right top)
+
+            * También se puede expresar en grados ( deg )
+
+            * Paradas de colores ( en que punto va a terminar el color ( % o px)
+                    orange 30%, red, blue)
+
+
+    -->
+
+    <!-- 
+
+        b ) Degradados rediales ( Parten del centro y se expanden de manera circular o elíptica)
+            -> background:radial-gradient(blue,red)
+
+            * Recibe como propiedades los colores del degradado como en linear gradient.
+
+            * Por defecto el tipo de degradado es elíptico pero podemos indicar que sea 
+              cricular añadiendo la propiedad circle como primer valor
+                 ( background:radial-gradient(circle, blue,red)) 
+            * Por defecto el degradado comienza en el centro del elemento pero podemos modificarlo 
+              con at top ( que parta desde arriba), at top left ( desde arriba a la izquierda),
+              at bottom left ( desde abajo a la izquierda), at bottom right ( desde abajo a la derecha)
+ 
+
+    -->
+
+    <!-- <div class="linear-container"></div> -->
+    <div class="radial-container"></div>
+
+   
+    
+</body>
+</html>
