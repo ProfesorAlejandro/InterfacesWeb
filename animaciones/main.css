@@ -1,0 +1,65 @@
+.container{
+
+    position:relative;
+
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: mi_animacion;
+    /* Manipulando la duración también modificamos su velocidad*/
+    animation-duration: 2s;
+    /*Opcionalmente*/
+
+    /* Tiempo que tarda en empezar*/
+    animation-delay: 3s;
+
+    /* Número de veces que se repite */
+
+    /* animation-iteration-count: 2; */
+
+    animation-iteration-count: infinite; 
+
+
+    /* Aceleración */ 
+    /* LEl comportamiento habitual es ir al principio más rápido para acabar más lenot si queremos aceleración lineal*/
+    animation-timing-function: linear;
+   
+
+}
+
+ /* @keyframes mi_animacion {
+    0%{
+        background-color: red;
+        left: 0;top: 0;
+    }
+    25%{
+        background-color: yellow;
+        left:50%;top: 0;
+    }
+    50%{
+        background-color: blue;
+        left:50%;top: 50vh;
+    }
+    75%{
+        background-color: black;
+        left: 0;top:50vh;
+    }
+    100%{
+        background-color: red;
+        left: 0;top:0;
+    }  */
+
+    @keyframes mi_animacion {
+
+        from{
+            top: 0;
+            left: 0;
+        }
+        to{
+            top:0;
+            left: 50vw;
+
+        }
+      
+    
+}
