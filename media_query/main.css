@@ -1,0 +1,36 @@
+/* body{
+    background-color: blue;
+} */
+
+.container{
+    margin: 100px auto;
+    width: 60vw;
+    height: 60vh;
+    background-color: aqua;
+}
+
+
+/* TRUCO MNEMOTÉCNIO*/
+
+/*  ( min-width:330px -> desque que el elemento tanga 300px - de 30o en adelante)*/
+/*  ( max-width:330px -> hasta que el elemento tanga 300px  - de 0 a 300px)*/
+
+
+/* @media(min-width:100px) and (max-width:400px){
+    body{background-color: red;}
+}
+@media(min-width:401px) and (max-width:600px){
+    body{background-color: green;}
+}
+@media(min-width:601px){
+    body{background-color: yellow;}
+} */
+
+
+
+@media(max-width:660px){
+    .container{
+        display: none;
+    }
+}
+
