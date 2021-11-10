@@ -1,0 +1,60 @@
+body{
+    background-color: #333;
+    color: #bbbaaa;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+.rejilla > *{
+    border: 1px solid darkslategray;
+    padding: 10px;
+}
+
+.rejilla{
+    display: grid;
+    background-color: #222;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 10vh 10vh 25vh 20vh 20vh;
+    gap: 15px;
+
+    /* CREANDO LAS ÁREAS */
+    grid-template-areas: "header  header"
+                         "menu    menu"
+                         "aside   publicidad"
+                         "aside   articulo"
+                         "footer  footer"
+    
+    
+    
+    ;
+
+
+
+}
+
+
+header{
+    grid-area:header;
+}
+nav{
+    grid-area: menu;
+}
+aside{
+    grid-area: aside;
+}
+
+.publicidad{
+    grid-area: publicidad;
+}
+
+article{
+    grid-area: articulo;
+}
+
+
+footer{
+    grid-area: footer;
+}
+
+
+

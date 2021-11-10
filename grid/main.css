@@ -1,0 +1,31 @@
+.grid-container{
+
+    margin: 20px auto;
+    border: 5px solid black;
+
+    /* CREAR EL CONTENEDOR GRID */
+    display: grid;
+    gap: 1px;
+
+    /* CREAR LA REJILLA DE FILAS Y COLUMNAS */
+
+    /* CREAR COLUMNAS */
+    /* grid-template-columns:repeat(5,1fr); */
+
+    /* CREAR FILAS */
+    /* grid-template-rows:repeat(4,3fr); */
+
+    grid-template-areas: 'header     header      header'
+                         'sidebar1   contenido   sidebar2'
+                         'sidebar1   widget   sidebar2'
+                         'footer     footer      footer'
+
+                        
+    
+    ;
+
+
+     
+
+  
+}
