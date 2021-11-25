@@ -1,0 +1,58 @@
+@media(max-width:700px){
+
+    .rejilla{
+        grid-template-columns: 1fr;
+        grid-template-rows: 10vh 10vh 25vh 20vh 20vh;
+        grid-template-areas: "header"
+                             "menu"
+                             "publicidad"
+                             "aside"
+                             "articulo"
+                             "footer"
+        
+        ;
+
+    }
+    .rejilla > *{
+        border: 1px solid darkslategray;
+        padding: 10px;
+    }
+
+   
+    header{
+        grid-area:header;
+    }
+    nav{
+        grid-area: menu;
+    }
+    aside{
+        grid-area: aside;
+    }
+    
+    .publicidad{
+        grid-area: publicidad;
+    }
+    
+    article{
+        grid-area: articulo;
+    }
+    
+    
+    footer{
+        grid-area: footer;
+    }
+    
+
+   
+
+
+   
+
+
+
+
+
+
+
+
+}
