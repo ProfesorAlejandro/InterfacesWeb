@@ -1,0 +1,42 @@
+header{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    height: 20vh;
+}
+
+aside{
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
+
+.article{
+    background-color: orange;
+    color: white;
+    text-align: center;
+}
+
+.article2{
+    background-color: green;
+    color: white;
+    text-align: center;
+
+}
+.article3{
+    background-color: yellow;
+    color: white;
+    text-align: center;
+
+}
+.article4{
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
+
+footer{
+    background-color:black;
+    color: white;
+    text-align: center;
+}
