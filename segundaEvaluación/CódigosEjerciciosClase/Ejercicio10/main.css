@@ -1,0 +1,11 @@
+.rojo{
+    background-color: red;
+    color: white;
+}
+button{
+    display: block;
+    margin: 40px auto;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 3px;
+}
