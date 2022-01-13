@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p id="paragraph" class="parrafo">Este es el párrafo 1</p>
+    <p class="parrafo" >Este es el párrafo 2</p>
+
+    <script> 
+
+    // Seleccionar elementos por su id
+
+    const parrafo = document.getElementById('paragraph')
+    console.log('Párrafo por su id',parrafo)
+
+    // Seleccionar elementos por su clase
+    const parrafoClase = document.getElementsByClassName('parrafo')
+
+    console.log('Párrafo por clase',parrafoClase[0])  // Primer párrafo
+    console.log('Párrafo por clase',parrafoClase[1])  // Segundo párrafo
+
+    // Seleccionar elementos por su etiqueta html
+    const parrafoPorEtiqueta = document.getElementsByTagName('p')
+    console.log('Párrafo por su etiqueta',parrafoPorEtiqueta[0]) // Primer párrafo
+    console.log('Párrafo por su etiqueta',parrafoPorEtiqueta[1]) // Segundo párrafo
+
+    // Tenemos querySelector y querySelectorAll
+
+    const parrafoQuerySelector = document.querySelectorAll('.parrafo')
+    console.log('Párrafo por query selector',parrafoQuerySelector[1])
+
+
+
+
+
+
+
+    
+    </script>
+
+
+   
+    
+</body>
+</html>
