@@ -1,0 +1,41 @@
+.btn-container{
+    width: 80vw;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin: 3px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: black;
+}
+
+button:nth-child(1){
+    background-color: red;
+}
+
+button:nth-child(2){
+    background-color: orange;
+}
+
+button:nth-child(3){
+    background-color: blue;
+}
+
+.parrafo-container{
+    text-align: center;
+}
+
+.rojo{
+    color: red;
+}
+.naranja{
+    color: orange;
+}
+.azul{
+    color: blue;
+}
