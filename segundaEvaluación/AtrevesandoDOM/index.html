@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>DOM TRAVERSING ( Atravesando el DOM )</h1>
+
+    <nav>
+        <ul id="parent">
+            <li>hijo 1</li>
+            <li>hijo 2</li>
+            <li>hijo 3</li>
+
+            <ul>
+                <li>nieto 1</li>
+                <li>nieto 2</li>
+            </ul>
+
+
+        </ul>
+                
+           
+    </nav>
+
+    <script>
+
+        const lista = document.getElementById('parent')
+
+        // Aceder al elemento padre -> partentElement
+
+        //Acceder a los elementos hijo
+
+        // childNodes ->devuelve todos los elementos hijo ( elementos, texto,comentarios, saltos de línea) 
+        // children -> todos los nodos elemento hijo
+        // firstChild -> devuelve el primer nodo hijo
+        // lastChild -> devuelve el último nodo hijo
+        // firstElementChild -> devuelve el primer nodo elemento hijo
+        // lastElementChild -> devuelve el último nodo elemento hijo
+        // hasChildNodes -> devulve true o false si el elemnto tiene algún nodo hijo
+
+
+        // console.log('NODOS HIJO',lista.childNodes)
+        // console.log('NODOS HIJOS DE TIPO ELEMENTO', lista.children)
+        // console.log('PRIMER NODO HIJO', lista.firstChild)
+        // console.log('PRIMER NODO HIJO DE TIPO ELEMENTO', lista.firstElementChild)
+        // console.log('ÚLTIMO NODO', lista.lastChild)
+        console.log('ÚLTIMO NODO HIJO DE TIPO ELEMENTO', lista.lastElementChild)
+
+      
+
+
+    </script>
+
+
+
+    
+</body>
+</html>

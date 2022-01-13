@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- <div class="container" id="container"></div> -->
+
+    <ul id="lista">
+        <li>Elemento uno</li>
+        <li>Elemento dos</li>
+        <li>Elemento tres</li>
+    </ul> 
+
+
+    <script>
+
+        // Crear elementos
+
+        // document.createElement(element)
+
+        // Insertar texto
+
+        // element.textContent = 'texto'
+
+        // Agregar html
+
+        // document.innerHTML = '<h2>texto</h2>'
+
+        // Añadir un elemento al DOM
+
+        // parent.appendChild(nuevoElemento)
+
+        // const container = document.getElementById('container')
+
+        // const elementoNuevo = document.createElement('p')
+
+        // elementoNuevo.innerHTML = '<h1>Hola qué tal</h1>'
+
+        // container.appendChild(elementoNuevo)
+
+
+        const lista = document.getElementById('lista')
+        const newItem = document.createElement('li')
+        newItem.textContent = 'Nuevo elemento'
+        // lista.appendChild(newItem)
+
+        lista.insertBefore(newItem, lista.children[2])
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+    </script>
+
+</body>
+</html>

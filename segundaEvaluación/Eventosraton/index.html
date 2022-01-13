@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red{
+            background-color: red;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        #container{
+            width: 300px;
+            height: 300px;
+            margin: 50px auto;
+        }
+
+        .violet{
+            background: violet;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <!-- <button   id="btn">Click</button> -->
+
+    <div id="container" class="red"></div>
+
+
+
+
+
+    <!-- EVENTOS DE RATÓN -->
+
+    <script>
+
+        // click -> Al hacer click en el botón izquierdo del ratón
+        // mouseenter -> Cuando entramos en la zona del evento
+        // mouseleave -> Cuando salimos de la  zona del evento
+        // mousedown -> Cuando pulsamos el botón izquierdo del ratón
+        // mouseup -> Cuando soltamos el botón izquierdo del ratón
+        // mousemove -> Cuando movemos el ratón
+
+        // =============================================================
+
+        // Click
+
+        // const boton = document.getElementById('btn')
+
+        // function mensajeUno(){
+        //     console.log('ejecuntalo la primera función')
+        // }
+
+        
+        // function mensajeDos(){
+        //     console.log('ejecuntalo la segunda función')
+        // }
+
+
+        // boton.addEventListener('click', function(){
+
+        //     console.log('Pasando por el evento')
+
+        //     mensajeUno()
+        //     mensajeDos()
+
+          
+
+        
+        // })
+
+
+        const container = document.getElementById('container')
+
+        // container.addEventListener('mouseenter', function(){
+        //     container.classList.replace('red','violet')
+
+            
+        // })
+
+        // container.addEventListener('mouseleave', function(){
+        //     container.classList.replace('violet','red')
+        // })
+
+        container.addEventListener('mousemove', function(){
+            console.log('Moviendo el ratón')
+        })
+
+
+
+
+    
+
+
+
+     
+      
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--  MODIFICAR ATRIBUTOS ( id, texto , value, href, clases...) -->
+
+    <h1 id="head">MODIFICAR ATRIBUTOS DESDE JAVASCRIPT</h1>
+
+    Nombre : <input type="text" id="inputId" value="Juan" />
+
+    <script>
+
+        const input = document.getElementById('inputId')
+        const head = document.getElementById('head')
+
+        // input.setAttribute('value','Paula')
+
+        head.innerHTML = '<h1>Otro texto</h1>';
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

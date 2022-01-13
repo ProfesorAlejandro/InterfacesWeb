@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Eventos de formulario -->
+
+    <form>
+        <input type="text" id="caja" placeholder="introduzca su nombre" autocomplete="off"/><br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script>
+
+        // focus -> Cuando el input adquiere el foco
+        // blur -> Cuando el input piede el foco
+        // submit -> Cuando se envía el formulario
+
+        const caja = document.getElementById('caja')
+        const form = document.querySelector('form')
+
+        // console.log(caja)
+
+        // function saludo(){
+        //     console.log('Hola')
+        // }
+
+        // function despedida(){
+        //     console.log('Adiós')
+        // }
+
+
+        // caja.addEventListener('focus', function(){
+        //     saludo()
+        // })
+
+        // caja.addEventListener('blur', function(){
+        //     despedida()
+        // })
+
+
+        form.addEventListener('submit', function(e){
+            e.preventDefault()
+
+           console.log(caja.value)
+
+        })
+      
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
