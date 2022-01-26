@@ -1,0 +1,23 @@
+.color-red{
+    color: red;
+}
+
+
+/* =================================================  */
+
+/*ESTILOS PARA EL KEYUP*/
+
+.container{
+    width: 50vw;
+    margin: 100px auto;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+#nombre{
+    margin:20px 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+  
+}
